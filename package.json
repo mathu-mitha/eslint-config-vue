@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-vue",
+  "version": "1.0.0",
+  "description": "A shareable Eslint configuration for Vue applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@personal:mathu-mitha/eslint-config-vue.git"
+  },
+  "keywords": [
+    "vue",
+    "eslint",
+    "javascript",
+    "eslint-config"
+  ],
+  "author": "mathumithapalani@gmail.com",
+  "license": "ISC"
+}
