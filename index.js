@@ -1,3 +1,12 @@
 export default {
-    extends: ["plugin:vue/recommended", "plugin:vuejs-accessibility/recommended"]
-  };
+  env: {
+    node: true,
+  },
+  extends: [
+    "eslint:recommended",
+    "airbnb-base",
+    "plugin:import/recommended",
+    "plugin:vue/recommended",
+    "plugin:vuejs-accessibility/recommended",
+  ],
+};
