@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   env: {
     es6: true,
     browser: true,
@@ -17,7 +17,8 @@ export default {
     "plugin:import/recommended",
     "plugin:vue/recommended",
     "plugin:vuejs-accessibility/recommended",
-    "prettier",
-    "plugin:prettier/recommended",
   ],
+  rules: {
+    "vue/camelcase": ["error"],
+  },
 };
